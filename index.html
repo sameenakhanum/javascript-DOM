@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+    <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
 </head>
 <body>
     <div id="parent">
         <h1>Hello World</h1>
-        <p>This is paragraph</p>
+        <p id="heading">This is  <b>paragraph</b> </p>
         <p id="midparagraph">This is another paragraph</p>
         <h1 id="access">Hello access</h1>
         <h2>Hello again</h2>
    </div>
+
+   <p id="content">This is paragraph</p>
+   <button onclick="onAddClass()">Add Class</button>
+   <button onclick="onRemoveClass()">Remove Class</button>
+
 </body>
 </html>

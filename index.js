@@ -30,3 +30,46 @@ console.log(midE3.nextElementSibling);
 
 let midE4 = document.getElementById("midparagraph")
 console.log(midE4.previousElementSibling);
+
+
+
+let paragraph = document.getElementById("content")
+console.log(paragraph);
+
+// applying style individually
+
+paragraph.style.backgroundColor = "pink";
+paragraph.style.color = "white";
+
+// css text
+
+let paragraph1 = document.getElementById("content")
+console.log(paragraph1.style.cssText = "background-color: pink; color: white;");
+
+let paragraph2 = document.getElementById("content")
+console.log(paragraph2.classList.add(pinkText));
+
+
+
+function onAddClass(){
+    let paragraph = document.getElementById("content")
+    paragraph.classList.add("pinkText");
+}
+function onRemoveClass(){
+    let paragraph = document.getElementById("content")
+    paragraph.classList.add("pinkText");
+}
+
+// inner text
+// text content
+// inner html
+
+let pgraph = document.getElementById("heading");
+console.log(pgraph.innerText);
+
+let pgraph = document.getElementById("heading");
+console.log(pgraph.textContent);
+
+let pgraph = document.getElementById("heading");
+console.log(pgraph.innerHTML);
+
